@@ -1,0 +1,68 @@
+.filedCell {
+    display: table-cell;
+    min-width: 20px;
+    height: 20px;
+    border-color: #fff;
+    border-width: 0.1px;
+    font-size: 0.9em;
+    border-style: outset;
+    background-color: #eee;
+    z-index: -1;
+    cursor: crosshair;
+
+    transition: background-color 0.05s, border-color 0.05s
+}
+
+.filedCell.hidden:hover {
+    background-color: #bde2ff4b;
+    border-color:#bde2ff4b;
+    z-index: 2;
+}
+
+.filedCell.hidden:active {
+    background-color: #6dc0ff;
+    border-color:#6dc0ff;
+}
+
+.filedCell.clicked {
+    border-color: #eee;
+    background-color: #fff;
+}
+
+.filedHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800
+}
+
+.el-table-poper {
+    z-index: 2000;
+}
+
+.filed-code-1 {
+    color:blue
+}
+.filed-code-2 {
+    color:rgb(25, 125, 255)
+}
+.filed-code-3 {
+    color:rgb(46, 52, 131)
+}
+.filed-code-4 {
+    color:blueviolet
+}
+.filed-code-5 {
+    color:rgb(56, 24, 145)
+}
+.filed-code-6 {
+    color:rgb(193, 127, 255)
+}
+.filed-code-7 {
+    color:rgb(212, 35, 228)
+}
+.filed-code-8 {
+    color:crimson
+}
+
