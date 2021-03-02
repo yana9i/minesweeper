@@ -2,7 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a minesweeper game single page application wrote by React as a term project.
 
+[Demo](https://yana9i.github.io/minesweeper/build/index.html) for this project.
+
 这是一个使用 React 编写的扫雷游戏单页面应用，用于学期作业。
+
+本项目的 [Demo](https://yana9i.github.io/minesweeper/build/index.html)
 
 ## Available Scripts
 
